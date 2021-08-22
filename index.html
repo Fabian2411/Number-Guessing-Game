@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lev3_11_projekt_js-vertiefung_number-guessing-game</title>
+</head>
+<body>
+    <fieldset>
+        <p>
+            in how many rounds you think you can guess the number?
+        </p>
+        <p class="newFormClass" id="newFormId">.../10</p>
+        <form action="" id="oldForm">
+            <input type="radio" name="rounds" id="fourRounds" value="4" onclick="clickFourRounds()">
+            <label for="four">4</label>
+
+            <input type="radio" name="rounds" id="fiveRounds" value="5">
+            <label for="five">5</label>
+
+            <input type="radio" name="rounds" id="sixRounds" value="6">
+            <label for="six">6</label>
+
+            <input type="radio" name="rounds" id="customRounds" value="Custom" onclick="clickHowManyRounds()">
+            <label for="custom">custom</label>
+
+            <input type="number" name="" id="howManyCustomRounds" class="howManyCustomRounds2">
+
+        </form>
+
+
+    </fieldset>
+    <fieldset>
+        <form action="">
+            <input type="number" name="number" id="number">
+            <input type="button" value="guess" onclick="showNewForm()">
+        </form>
+    </fieldset>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
